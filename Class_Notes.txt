@@ -1,0 +1,55 @@
+GCP ->
+
+Start - 14th June | Weekends - 8:30PM IST - 11:30PM IST 
+
+#######################
+Day 1 : 14th June 2025
+#######################
+
+Introduction to GCP :
+
+	Cloud Platform :
+	
+		- On-Premises Resources :
+			
+			- VMs, Storage Servers, Networking Devices 
+			
+			Develop Applications 
+			Test Applications
+			Deploy in Prod - LIVE 
+				
+				- High Availability
+				- Auto Scaling
+				
+				Up-front Investment to prepare the Infra-Structure.
+				
+		- Cloud Platform :
+		
+			- GCP/AWS/Azure ...
+			
+			- Services :
+				
+				Pay based on the Usage.
+				
+		Environments :::
+		
+		- Non-Prod Environments											Prod Environments
+		
+			Dev Servers 
+			
+			Build Servers
+			
+			Test Servers 
+			
+				QA
+				UAT 				==========================> 			Prod Servers ==> 24/7
+				
+				
+				
+	- Accessing GCP :::
+	
+	Create an Account :  $300 - 1 Month.
+	
+		- EmailID
+		- Payment Method
+			- limit -->
