@@ -53,3 +53,94 @@ Introduction to GCP :
 		- EmailID
 		- Payment Method
 			- limit -->
+
+
+#######################
+Day 2 : 15th June 2025
+#######################
+
+	Various methods to interact with GC Services
+		
+		- GC Console to explore the GC Services 
+
+		- GCloud Shell -- Through Web Browser 		
+			gcloud cli commands to access the resource 
+	
+		- gcloud API Services 
+		
+		- gcloud sdk - software development kit 
+		
+		- IAC Tools - Infra-Structure As Code -> 
+				- Terraform 
+	
+	
+	https://cloud.google.com/sdk/docs/cheatsheet
+	
+	
+	Virtual Machines :
+	
+	
+	Environments:
+	
+	Non-Prod 
+	
+		DEV 
+		BUILD 
+		QA
+		UAT 
+		
+	
+	Prod Environments
+	
+	Create 
+	
+	Virtual Machine :
+	
+	- VMs are Hardware Level Virtualization
+	- VMs are created using Hypervisor
+	- VMs are basically used to run the OS.
+	- VMs consume more time and size to execute.
+	- 
+	
+	
+	Containers :
+	
+	- Containers are created using Container Engine 
+	- Containers  are used to run the Applications. Not an Operating
+	- If the application/task ended, Containers immediately goes to exit state.	
+	- Containers consume less time and size to execute.
+	
+	- VMs cannot be completely removed.
+	- Containers are used to reduce the no. of VMs
+	
+	Cloud Shell -- VM
+	
+	Terminologies :
+	
+		- Containerization :	Is a process of packaging the Applications along with its dependencies
+		
+		- Contianer Engine :	Is used to create/manage the containers & Container Images. 
+		
+		- Container Image  :	Is a static file, that defines the properties of the container.
+								Non-Executable
+								It composed of various layers
+								
+		- Containers	   :	Containers are the executable units of Container Images.
+		
+		- Container Registry :	It is used to maintain/version control the Container Images
+								DockerHub/GCR/ECR/ACR
+								
+								Artifactory Libraries ==> Maintain the Application artifacts - GAR
+								
+			Container Repository :
+			
+							: Subset of Container Registry 
+	
+	
+	
+	Working with Containers:
+	
+		- Installation of Container Engine
+				 apt install docker.io -y.
+				 
+		- Using Cli Commands.
